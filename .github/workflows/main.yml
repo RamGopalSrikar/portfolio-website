@@ -23,7 +23,7 @@ jobs:
         
     - name: invalidating cloudfront actions
       run: |
-        aws cloudfront create-invalidation --distribution-id E1W00BQM05A1P5 --paths /*
+        aws cloudfront create-invalidation --distribution-id E1W00BQM05A1P5 --paths "/*"
   
 
   
