@@ -11,6 +11,6 @@ function loadXMLDoc() {
         document.getElementById('count1').innerHTML='View Count : ' + response
     }
   };
-  xhttp.open("GET", "https://vz9f1bcfgk.execute-api.us-east-1.amazonaws.com/v1", true);
+  xhttp.open("GET", "https://4o71udw7c0.execute-api.us-east-1.amazonaws.com/v1", true);
   xhttp.send();
 }
