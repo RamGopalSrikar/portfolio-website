@@ -69,6 +69,25 @@
                     <h2 class="mb-5">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <a href="https://github.com/RamGopalSrikar/mp3-youtube-download">
+                                <h3 class="mb-0">REST API - YouTube MP3 Downloader</h3>
+                            </a>
+                            <div class="subheading mb-3">AWS Serverless Architecture</div>
+                            <p>Designed a REST API on AWS platform to download mp3 audio files of YouTube
+videos given video ID which is been integrated for a music application.</p>
+                            <ul>
+                                <li>
+                                    Designed a Serverless Architecture using lambda fronted by API Gateway includes, SQS to decouple the components, S3 for storage, DynamoDB for meta-data storage, Elastic Transcoder for mp4 to mp3 conversion. For the purpose of downloading the videos YouTube_dl open source GitHub library is used.
+                                </li>
+                                <li>
+                                    Achieved a reliable REST API calls to process high volumes of request at a time. Experienced latency for processing new video files that are currently not stored in repository, especially for large video files. However over a period of time with increased repository of content latency reduces.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Feb 2021 - Mar 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <a href="https://inanutshell.site/">
                                  <h3 class="mb-0">Inanutshell - (Store,Listen,learn)</h3>
                             </a>
@@ -120,24 +139,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Jan 2020 - Mar 2020</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <a href="https://github.com/RamGopalSrikar/non-local-means-based-filtering">
-                                <h3 class="mb-0">Nonlocal Means-Based Speckle Filtering for Ultrasound Images</h3>
-                            </a>
-                            <div class="subheading mb-3">Medical Image Processing</div>
-                            <p>Implemented Nonlocal Means filter for speckle reduction in ultrasound images using MATLAB.</p>
-                            <ul>
-                                <li>
-                                    Initially nonlocal means for additive white Gaussian Noise was implemented which doesn’t work for multiplicative noise such as Speckled noise, hence Bayesian framework is used to derive a NL-means filter adapted to relevant noise model.
-                                </li>
-                                <li>
-                                    The results by simulating in MATLAB demonstrated that the proposed method is able to preserve accurately edges and structural details of image.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Sept 2019 - Nov 2019</span></div>
-                    </div>
+                    
                 </div>
             </section>
             <hr class="m-0" />
